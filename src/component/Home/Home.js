@@ -6,9 +6,9 @@ const Home = () => {
         <div className="home">
             <h1>Hello There!</h1>
             <h1>MY NAME IS PHAM VIET LONG</h1>
-            <p>I'm a front-end software developer based in Hanoi, Vietnam</p>
+            <p>I'm a software developer based in Hanoi, Vietnam</p>
             <p>
-                I'm passionate about creating eyes appealing website and learning new things along the way.
+                I'm passionate about creating eyes appealing, functional websites and learning new things along the way.
                 Please view my <Link to="/Work">Work</Link> here!
                 Or send me an email at <a href="mailto:phmvtlong@gmail.com">phmvtlong@gmail.com</a>
             </p>

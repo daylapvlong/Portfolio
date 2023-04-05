@@ -1,4 +1,5 @@
 import React from 'react';
+import { Container,Row,Col } from 'react-bootstrap';
 import {
     AiFillGithub,
     AiOutlineMail,
@@ -8,8 +9,13 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
     return ( 
-        <div className="footer">
-            <ul className="footer-icons">
+      <Container fluid className="footer">
+        <Row>
+          <Col md className="footer-ps">
+            <h3>Designed and Developed by Pham Viet Long</h3>
+          </Col>
+          <Col md className="footer-icon">
+            <ul className="icon-list">
             <li className="social-icons">
               <a
                 href="https://github.com/daylapvlong"
@@ -50,8 +56,9 @@ const Footer = () => {
                 <AiFillFacebook />
               </a>
             </li>
-          </ul>
-        </div>
+          </ul></Col>
+        </Row>
+      </Container>
      );
 }
 

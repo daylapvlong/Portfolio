@@ -38,11 +38,25 @@
     padding-top: 10px !important;
     padding-bottom: 8px !important ;
   }
-  .footer-icons{
+  .footer-ps {
+    text-align: center;
+  }
+  .footer h3 {
+    font-size: 1em;
+    color: white !important;
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5em !important;
+  }
+  .footer-icon {
+    z-index: 1;
+    text-align: center !important;
+  }
+  .icon-list{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    align-items: center;
   }
   .social-icons {
     float: left;
