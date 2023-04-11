@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Header from '../Header';
 
 const About = () => {
     return ( 
         <div className="about">
+            <Header />
             <div className="about-content">
                 <div className="about-content-me">
                     <h1>LET ME INTRODUCE MYSELF</h1>
@@ -14,6 +16,7 @@ const About = () => {
                 </div>
                 <div className='about-content-skill'>
                     <h2>My skillset so far</h2>
+                    <h2>Proficiency</h2>
                 </div>
             </div>
             <div className="about-connect">
