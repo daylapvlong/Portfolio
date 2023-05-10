@@ -5,11 +5,14 @@
 @layer components {
     .navbar-icon{
         @apply  relative flex items-center justify-center 
-                w-12 h-12 mt-5 mb-5 mx-auto shadow-lg
-                bg-gray-800
-                text-green-500
+                outline-1
+                w-12 h-12 mt-5 mb-5 mx-auto dark:shadow-lg 
+                bg-white dark:bg-gray-800
+                text-gray-800 dark:text-green-500
                 hover:text-white
-                hover:bg-green-500
+                dark:hover:text-white
+                hover:bg-gray-700
+                dark:hover:bg-green-500
                 rounded-3xl hover:rounded
                 transition-all duration-100 ease-linear
                 cursor-pointer;
@@ -17,9 +20,11 @@
 
     .navbar-notion{
         @apply  absolute 
-                w-auto p-2 m-2 min-w-max left-14 rounded-md shadow-lg
-                text-white bg-gray-900
-                text-xs font-bold
+                w-auto p-2 m-1 min-w-max left-14 rounded-md shadow-lg
+                text-white 
+                bg-gray-700
+                dark:bg-green-500
+                text-sm font-bold
                 transition-all duration-100 scale-0 origin-left;
     }
 }

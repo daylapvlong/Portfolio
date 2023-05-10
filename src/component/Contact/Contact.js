@@ -18,26 +18,30 @@ const Contact = () => {
   }
 
   return (
-    <div className="">
+    <div className="pl-20 bg-white dark:bg-gray-800 text-black dark:text-white h-screen">
       <Header />
-      <h1 className="text-9xl font-semibold">Contact.</h1>
-      <h2 className="text-xl">Reach Out to me by form or directly on <a href="mailto:phmvtlong@gmail.com">phmvtlong@gmail.com</a></h2>
-      <form className='w-full max-w-lg left-3' ref={form} onSubmit={handleSubmit}>
+      <h1 className="text-9xl font-semibold pb-3 px-3">
+        Contact.
+      </h1>
+      <h2 className="text-xl py-3 px-3 font-semibold">
+        Reach Out to me by form or directly on <a href="mailto:phmvtlong@gmail.com">phmvtlong@gmail.com</a>
+      </h2>
+      <form className='w-full max-w-lg left-3 py-3 px-3' ref={form} onSubmit={handleSubmit}>
         <div className="flex flex-wrap -mx-3 mb-6">
           <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-            <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
+            <label className="block uppercase tracking-wide text-gray-700 dark:text-white text-xs font-bold mb-2" for="grid-first-name">
               Your Name
             </label>
             <input
               className="appearance-none block w-full bg-gray-200 text-gray-700 
-                        border rounded py-3 px-4 mb-3 
+                        border border-gray-500 rounded py-3 px-4 mb-3 
                         leading-tight focus:outline-none focus:bg-white" id="grid-first-name" 
               type="text"
               placeholder='Name'
               name="user_name"
               required
             />
-            <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
+            <label className="block uppercase tracking-wide text-gray-700 dark:text-white text-xs font-bold mb-2" for="grid-last-name">
               Email
             </label>
             <input
@@ -49,7 +53,7 @@ const Contact = () => {
               name="user_email"
               required
             />
-            <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+            <label class="block uppercase tracking-wide text-gray-700 dark:text-white text-xs font-bold my-2" for="grid-password">
               Messsage
             </label>
             <textarea

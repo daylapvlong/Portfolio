@@ -10,7 +10,7 @@ import Navbar from './Navbar';
 
 function Content() {
     return (
-        <Router className="flex flex-row">
+        <Router className="flex flex-row ">
             <Navbar />
             <Routes>
                 <Route exact path="/" element={<Home />}></Route>

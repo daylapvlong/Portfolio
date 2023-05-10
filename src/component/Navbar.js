@@ -29,19 +29,19 @@ const Navbar = () => {
     return (
         <nav className="fixed top-0 left-0 h-screen w-20 m-0
                         flex flex-col justify-between items-center
-                        bg-gray-900 text-white shadow-lg">
+                        bg-white dark:bg-gray-900 text-black dark:text-white shadow-lg">
             <div>
                 <Link to="/">
-                    <NavIcon icon={<AiOutlineHome size="32" />} text="Home" />
+                    <NavIcon icon={<AiOutlineHome size="30" />} text="Home" />
                 </Link>
                 <Link to="/About">
-                    <NavIcon icon={<AiOutlineUser size="32" />} text="About" />
+                    <NavIcon icon={<AiOutlineUser size="30" />} text="About" />
                 </Link>
                 <Link to="/Work">
-                    <NavIcon icon={<AiOutlineFundProjectionScreen size="32" />} text="Work" />
+                    <NavIcon icon={<AiOutlineFundProjectionScreen size="30" />} text="Work" />
                 </Link>
                 <Link to="/Contact">
-                    <NavIcon icon={<AiOutlinePhone size="32" />} text="Contact" />
+                    <NavIcon icon={<AiOutlinePhone size="30" />} text="Contact" />
                 </Link>
             </div>
             <div>
