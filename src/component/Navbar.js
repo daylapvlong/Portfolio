@@ -4,10 +4,8 @@ import {
     AiOutlineHome,
     AiOutlineFundProjectionScreen,
     AiOutlineUser,
-} from 'react-icons/ai';
-import {
     AiFillGithub,
-    AiOutlineMail,
+    AiFillInstagram,
     AiFillFacebook,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -49,16 +47,16 @@ const Navbar = () => {
                     <NavIcon icon={<AiFillGithub size="28" />} text="Github" />
                 </a>
 
-                <a href="mailto:phmvtlong@email.com">
-                    <NavIcon icon={<AiOutlineMail size="28" />} text="Email" />
-                </a>
-
                 <a href="https://www.linkedin.com/in/pham-long-1b3591257/">
                     <NavIcon icon={<FaLinkedinIn size="28" />} text="LinkedinIn" />
                 </a>
 
                 <a href="https://www.facebook.com/profile.php?id=100012864726826">
                     <NavIcon icon={<AiFillFacebook size="28" />} text="Facebook" />
+                </a>
+
+                <a href="https://www.instagram.com/_.longpham._/">
+                    <NavIcon icon={<AiFillInstagram size="28" />} text="Instagram" />
                 </a>
             </div>
         </nav>
